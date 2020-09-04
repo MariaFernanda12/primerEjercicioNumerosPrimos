@@ -40,7 +40,7 @@ public class numerosPrimos {
                 while(numeroA<=numeroB){ //segundo ciclo que valida el cálculo para saber si un número es primo
                   
                     if(numeroA==numeroB){ //validación que de ser cierta el némero es primo
-                        System.out.println("Entro primer if");
+                        
                     cadenaNumerosPrimos=cadenaNumerosPrimos+" - "+numeroB; // A la cadena antes establecida le agrega el número que resulto ser primo
                     contador=contador+1;// Incrementa el contador en 1 y termina el segundo ciclo para iniciar de nuevo el primero
                     }else{
